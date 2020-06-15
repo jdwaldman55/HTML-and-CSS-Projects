@@ -1,0 +1,10 @@
+p {
+  color: yellow;
+  background: green;
+  font-size: 200%;
+  text-align: right;
+ }
+ 
+ h1 {
+     text-shadow: 2px 2px #FFD700;
+ }
