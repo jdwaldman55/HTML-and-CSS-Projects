@@ -1,19 +1,21 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-	<header>
+	<head>
 		<title>Travel Website</title>
 		<meta charset="utf-8">
-	</header>
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
+	</head>
 	
 	<body> 
-	
+		
 		<ul>
 			<a href="#home" id="link"><li>HOME</li></a> 
 			<a href="#picture"><li>PICTURES</li></a>
 			<a href="#video"><li>VIDEOS</li></a>
 		</ul>
-	
+		
+		
 		<h1 id="home">Fun places to travel!</h1>
 		<p>This website is all about place you might want to travel to. Check out some pictures and videos below!</p><br>
 		
@@ -30,14 +32,15 @@
 		</iframe><br><br>
 		
 		<h3>Enter your information below</h3>
-		<form action="" method"post">
-		    <label for="fname">First Name:</label><br>
-			<input type="text" id="fname" value=""><br>
-			<label for="lname">Last Name:</label><br>
-			<input type="text" id="lname" value=""><br>
-			<label for="email">Email:</label><br>
-			<input type="text" id="email" value=""><br>
-			<input type="submit" value="Submit"><br><br>
+        <div class="contact">
+            <form action="" method="post">
+                <input class="contact" type="text" value="" placeholder="First Name">
+                <input class="contact" type="text" value="" placeholder="Last Name">
+                <input class="contact" type="text" value="" placeholder="Email Address">
+                <input class="contact" type="text" value="" placeholder="Phone Number">
+                <input class="contact" type="submit" value="submit" placeholder="Submit">
+            </form>
+        </div>
 		
 		<footer>www.travelwebsite.com &nbsp;|&nbsp; &copy; 2016</footer>
 	
